@@ -74,10 +74,10 @@ main{
 }
 #text {
     align-self: center;
-    margin-left: 4rem;
-    margin-right: 4rem;
+  
     margin-top: 2rem;
     padding-bottom: 4rem;
+    text-align: center;
 }
 
 
@@ -101,20 +101,24 @@ main{
     border-radius: 50%;
     position: relative;
     top: -4rem;
-
+    text-align: center;
+    margin: auto;
 }
 #experiences h3{
     position: relative;
     top: -3.5rem;
     font-size: 1.5rem;
-    left: 1.1rem;
+    
     color: turquoise;
+    margin: auto;
+    text-align: center;
 }
 #experiences p{
     text-align: center;
     position: relative;
     top:-2rem;
     color: rgb(247, 239, 247);
+    
     
 }#design{
     width: 20%;
@@ -127,7 +131,225 @@ main{
     width: 20%;
  
  }
+ /*skills*/
+ #skills{
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     align-content: center;
+     width: 80%;
+     margin: auto;
+     height: 15rem;
+ }
+ #html{
+    flex-grow: 1;
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+ .item1{
+    flex-basis: 20%;
+    background-color: darkslategrey;
+    color: cornsilk;
+    flex-grow: 1;
+    height: 1.5rem;
+    
+ }
+ #htitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 60%;
+     height: 1.5rem;
 
+ }
+ #htitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 20%;
+ height: 1.5rem;
+ 
+}
+ #css{
+    flex-grow: 1;
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+
+ }
+ 
+ #cssitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 60%;
+     height: 1.5rem;
+
+ }
+ #cssitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 20%;
+ height: 1.5rem;
+}
+ #javascript{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+ 
+ #jsitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 50%;
+     height: 1.5rem;
+ }
+ #jsitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 30%;
+ height: 1.5rem;
+}
+ #react{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+
+ #reactitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 40%;
+     height: 1.5rem;
+
+ }
+ #reactitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 40%;
+ height: 1.5rem;
+}
+ #jquery{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+
+ #jqueryitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 50%;
+     height: 1.5rem;
+
+ }
+ #jqueryitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 30%;
+ height: 1.5rem;
+}
+ #php{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+ 
+ #phpitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 40%;
+     height: 1.5rem;
+
+ }
+ #phpitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 40%;
+ height: 1.5rem;
+}
+ #laravel{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+ 
+ #laravelitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 40%;
+     height: 1.5rem;
+     height: 1.5rem;
+ }
+ #laravelitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 40%;
+ height: 1.5rem;
+}
+ #ux{
+     display: flex;
+     width: 100%;
+     flex-direction: row;
+     flex-grow: 1;
+     flex-basis: 1.5rem;
+     
+     align-items:center;
+ }
+ 
+ #uxitem2{
+     flex-grow: 1;
+     background-color: lawngreen;
+     flex-basis: 30%;
+     height: 1.5rem;
+ }
+ #uxitem3{
+ flex-grow: 1;
+ background-color: darkslategrey;
+ color: cornsilk;
+ flex-basis: 50%;
+ height: 1.5rem;
+
+}
+summary h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    color: lightblue;
+}
 
 
    
